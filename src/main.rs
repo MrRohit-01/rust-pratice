@@ -1,9 +1,6 @@
-use std::io;
-
+// mod input1;
+mod sum;
 fn main(){
-    let mut x= String::new();
-   match io::stdin().read_line(&mut x){
-    Ok(_)=>print!("{}",x),
-    Err(error)=>print!("{}",error)
-   }
+//    input1::input();
+   sum::sum();
 }
